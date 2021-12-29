@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+i{
+    font-size: 50px;
+    color: white;
+    
+}
+nav{
+    background-color: rgb(90, 105, 125);
+    height: 80px;
+
+}
+#logo{
+    margin-left: 15px;
+    margin-top: 7.5px;
+    float: left;
+}
+#menue ul{
+    list-style: none;
+    margin-top: 27.5px;
+    margin-right: 70px;
+    
+    
+}
+#menue ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+}
+#menue ul li{
+    margin-right: 20px;
+    
+    margin-left: 7.5px;
+    display: inline;
+    
+}
+#menue ul li a:hover{
+    font-size: 20px;
+    border: 1px dashed black;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+#menue{
+float: right;
+}
+nav input{
+    padding: 10px;
+    border-radius: 3px;
+}
+#search{
+    margin-top: 17px;
+    margin-left: 500px;
+    float: left;
+
+    
+}
+#srearch-logo i{
+    font-size: 25px;
+    color: darkcyan; 
+    margin-top: 20px;
+    margin-left: -30px
+    
+}
+#search input{
+    background-color: wheat;
+    border-color: whitesmoke;
+    
+}
+img{
+    width: 90px;
+    height: 80;
+}
