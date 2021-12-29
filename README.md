@@ -1,23 +1,36 @@
-### Some slides have been updated (small updates). Please always check the new versions.
+# bfcai
 
-### Records
-- https://drive.google.com/drive/folders/1HgmlKIHtcEhmY9dPKf5i7T5eDkKX9gVe?usp=sharing
+A College Social Media Web application.
 
-# web
+# Link of Web Application 
 
-- https://www.coursera.org/learn/business-transformation-google-cloud
-- https://firebase.google.com/learn/pathways/firebase-web?hl=en
-- https://www.udacity.com/course/version-control-with-git--ud123
-- https://www.udacity.com/course/es6-javascript-improved--ud356
+https://bfcai-797f4.web.app/index.html
 
 
-## Labs
-- https://www.udacity.com/course/intro-to-html-and-css--ud001
+
+## Table of content
+* [team of project](#team-of-project)
+* [project idea](#project-idea)
+* [Main Features](#main-features)
+* [Additional features](#additional-features)
+
+## team of project
+* Ahmed Radwan
+* Mahmoud Reda
+* Ebrahim Tamer
+
+## Project idea
+Social media application connect only students and employees of the college, by using advantage of academic mail of every one, which application only accepts persons have academic mail end with “@fci.bu.edu.eg” to register in the application 
 
 
-## Project Guide
-- http://udacity.github.io/frontend-nanodegree-styleguide/index.html
-- http://udacity.github.io/frontend-nanodegree-styleguide/css.html
-- http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html
-- https://udacity.github.io/git-styleguide/
-- https://codingsans.com/blog/mockup-tools
+
+	
+## Main features
+* Social media which make easy to student to connect and ask all other students by publish posts 
+* Easy to instructors connect to students (replace Facebook groups)
+* Add map button which have map of labs and halls that help new students 
+* Add courses button which have all study schedule and exams schedule (only admin who update this page
+* Add Gpa calculator 
+## Additional features
+* Add to each post student or instructor publish which level want to send this post or all levels
+* Add button in setting to create group only instructor can access this button by using username and password

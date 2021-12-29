@@ -1,0 +1,43 @@
+body{
+
+    background:url(../assets/background.jpg) ;
+    background-size: cover;
+}
+table{
+    
+}
+
+
+.n{
+
+    width: 300;
+   height: 40px;
+   background-color: rgb(226, 226, 241);
+  
+   font-size: 20;
+}
+
+.m{
+   
+    width: 300;
+    height: 40px;
+    background-color: rgb(226, 226, 241);
+    font-size: 20;
+    
+}
+.c{
+   
+    width: 300;
+    height: 40px;
+    background-color: rgb(226, 226, 241);
+    font-size: 20;
+    
+}
+
+form{
+    padding: 15px;
+}
+
+div{
+    padding-top:12% ;
+}
