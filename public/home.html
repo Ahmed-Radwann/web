@@ -2,133 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/style.css">
-
-        <script>
-            function myFunction() {
-      var btn = document.createElement("div");
-      btn.innerHTML = "";
-      btn.style.boxShadow ="0 4px 8px 0 rgba(0,0,0,0.2)"
-      btn.style.marginTop = "10px"
-      btn.style.wrap
-      btn.style.width = "50%"
-      btn.style.textAlign = "left"
-      btn.style.backgroundColor = "white"
-      btn.style.padding = "10px"
-      btn.style.marginLeft = "25%"
-      document.body.appendChild(btn);
-    }
-    </script>
-        <style>
-            body{
-                background-color:gainsboro;
-            }
-            #all{
-                background-color: white;
-                width: 40%;
-                text-align: left;
-                border-radius: 5px;
-                height: 160px;
-                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-                color: black;
-                margin-bottom: 10px;
-    
-            }
-            #all:hover {
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    }
-        #avatar {
-            padding: 10px;
-        vertical-align:middle;
-        align-self: flex-start;
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-      }
-      #i1{
-          float: right;
-          padding: 10px;
-          margin-top: 10px;
-      }
-      #post{
-          background-color:   rgb(236, 236, 236);
-          border-color: white;
-          height: 30px;
-          border-radius: 15px;
-          width: 80%;
-          color: black;
-          padding-left: 10px;
-      }
-     
-            #add{
-                margin: 10px;
-                height: 30px;
-                width: 60px;
-                background-color: #435c7d;
-                border-radius: 20px;
-                font-size: 18px;
-                color: white;
-                font-weight: bold;
-                font-family: 'Times New Roman', Times, serif;
-            }
-            #pho{
-                 background-color: #435c7d; 
-                height: 30px;
-                width: 50px;
-                
-                margin-left: 5px;
-                text-align: center;
-            }
-            #im1{
-                margin-top: 5px;
-            }
-            #card {
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-      border-radius: 5px;
-      width: 40%;
-      text-align: left;
-      margin-bottom: 10px;
-    }
-    #avatarr {
-      vertical-align:middle;
-      padding: 5px;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-    }
-    #card:hover {
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    }
-    #container {
-      padding: 10px 16px 1px;
-      color: black;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 16px;
-    }
-           #sp1{
-               color: grey;
-           }
-           #imagee{
-               margin-top: 10px;
-            width:70%;
-            height: 300px;
-            background-image: url("assets/profile.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            margin-bottom: 10px;
-            border-radius: 5px;
-           }
-           #actions li{
-        display: inline;
-        color: black;
-     
-    }
-    
-    #actions ul{
-        list-style: none;
-        margin-left: 50px;
-    
-    }
-        </style>
+        <link rel="stylesheet" href="homeScreen.css">    
 
     </head>
     <body>
@@ -142,10 +16,10 @@
                 <div id="menue">
                     <ul>
                         <li>
-                            <a href="#"> Home</a>
+                            <a href="homeScreen.html"> Home</a>
                         </li>
                         <li>
-                            <a href="#"> notification</a>
+                            <a href="Notifications.html"> notification</a>
                         </li>
                         <li>
                             <a href="#"> Cources</a>
@@ -163,76 +37,6 @@
 
         </nav>
 
-        <Center>
-            <div id="all">
-                <Center>
-                <img src="assets/profile.jpg" alt="Avatar" id="avatar">
-            </Center>
-            
-                
-                <Center>
-                <div>
-                    <form >
-                       
-                        <input type="text" name="post" placeholder="What is on your mind .." id="post" style=" font-size: 16px;" required>
-                        <input type="file" title="Add-image" id="im1">
-                        <button onclick="myFunction()" id="add" >Post</button>
-                    </form>
-                    </div>
-                </div>
-                <Center>
-                    <div id="card" style="background-color: white;">
-          
-                        <img src="assets/profile.jpg" alt="Avatar" id="avatarr">
-                        <b>Mahmoud Reda</b> <span id="sp1"> . 20-feb 
-                            <i class="fab fa-globe-europe" style="color: black;"></i>
-                            <!-- <i style="float: right; padding-top: 20px; padding-right: 10px; color: black;"><b>...</b></i> -->
-                        </span>
-                        
-                        
-                        <div id="container">
-                        this is my new post to my beutiful students , i love you ..
-                        <Center>
-                        <div id="imagee">
-                            
-                        </div>
-                    </Center>
-                     <button id="pho" title="Add-image"><i class="fab fa-instagram" style="font-size: 18px; color: white;">Like</i></button>
-                     <button id="pho" title="Add-image" style="font-size: 14px; color: white; width: 80px; float: right;">Comment</button>
-    
-                        </div>
-                      </div>
-                      </Center>
-            </Center>
-            </div>
-    
-            <!-- /////////////////////////////////////////////////////////// -->
-    
-            <Center>
-                <div id="card" style="background-color: white;">
-      
-                    <img src="assets/profile.jpg" alt="Avatar" id="avatarr">
-                    <b>Mahmoud Reda</b> <span id="sp1"> . 20-feb 
-                        <i class="fab fa-globe-europe" style="color: black;"></i>
-                        <!-- <i style="float: right; padding-top: 20px; padding-right: 10px; color: black;"><b>...</b></i> -->
-                    </span>
-                    
-                    
-                    <div id="container">
-                    this is my new post to my beutiful students , i love you ..
-                    <Center>
-                    <div id="imagee">
-                        
-                    </div>
-                </Center>
-                 <button id="pho" title="Add-image"><i class="fab fa-instagram" style="font-size: 18px; color: white;">Like</i></button>
-                 <button id="pho" title="Add-image" style="font-size: 14px; color: white; width: 80px; float: right;">Comment</button>
-    
-                    </div>
-                  </div>
-                  </Center>
-        </Center>
-        </div>
-        </Center>
+        
     </body>
 </html>
