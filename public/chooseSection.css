@@ -1,0 +1,30 @@
+body{
+
+    background:url(../assets/background.jpg) ;
+    background-size: cover;
+}
+table{
+    
+}
+
+
+.g{
+
+    width: 300;
+   height: 35px;
+   background-color: rgb(226, 226, 241);
+  
+   font-size: 20;
+}
+
+.c{
+   
+    width: 300;
+    height: 35px;
+    background-color: rgb(226, 226, 241);
+    font-size: 20;
+    
+}
+form{
+    padding: 20px;
+}

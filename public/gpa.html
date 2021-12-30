@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="gpa.css">
+        <link rel="stylesheet" href="style.css">
+
+
+
+    </head>
+    <body>
+        <nav>
+            <div class="appbar">
+                <div id="logo">
+                        <img src="bfcai.png">
+                    </a>
+                </div>
+                <div id="menue">
+                    <ul>
+                        <li>
+                            <a href="homeScreen.html"> Home</a>
+                        </li>
+                        <li>
+                            <a href="Notifications.html"> notification</a>
+                        </li>
+                        <li>
+                            <a href="#" > Cources</a>
+                        </li>
+                        <li>
+                            <a href="#" > Map</a>
+                        </li>
+                        <li>
+                            <a href="gpa.html" > Gpa</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+        <div class="container">
+            <div class="left-box">
+                <h2>result</h2>
+                <div class="p-g-t">
+                    <h3>Percentage -<span class="per"></span></h3>
+                    <h3>grade -<span class="gpa"></span></h3>
+                    <h3>total -<span class="to"></span></h3>
+                </div>
+            </div>
+            <div class="content">
+                <div class="reight-box">
+                    <input type="number" id="web" placeholder="web course">
+                    <input type="number" id="mobile" placeholder="mobile course">
+                    <input type="number" id="network" placeholder="network course">
+                    <input type="number" id="algo" placeholder="Algorithm course">
+                    <input type="number" id="db" placeholder="database course">
+                    <input type="number" id="signal" placeholder="signal course">
+                    <button type="button" onclick="showresult()">show result</button>
+                </div>
+            </div>
+        
+        </div>
+    </body>
+    <script src="gpa.js"></script>
+</html>
