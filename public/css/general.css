@@ -1,0 +1,50 @@
+body{
+
+    background:url(../assets/background.jpg) ;
+    background-size: cover;
+}
+table{
+    
+}
+
+
+.l1{
+
+    width: 300;
+   height: 40px;
+   background-color: rgb(226, 226, 241);
+  
+   font-size: 20;
+}
+
+.l2{
+   
+    width: 300;
+    height: 40px;
+    background-color: rgb(226, 226, 241);
+    font-size: 20;
+    
+}
+.l3{
+   
+    width: 300;
+    height: 40px;
+    background-color: rgb(226, 226, 241);
+    font-size: 20;
+    
+}
+.l4{
+   
+    width: 300;
+    height: 40px;
+    background-color: rgb(226, 226, 241);
+    font-size: 20;
+    
+}
+form{
+    padding: 15px;
+}
+
+div{
+    padding-top:12% ;
+}
