@@ -125,7 +125,8 @@
         .then((userCredential) => {
         // Signed in 
         const user = userCredential.user;
-         alert('success Singup');
+        window.location.href='homeScreen.html'
+        
     
     // ...
         })
@@ -144,7 +145,7 @@
         .then((userCredential) => {
             // Signed in 
             const user = userCredential.user;
-            window.location.href='home.html'
+            window.location.href='homeScreen.html'
             // ...
         })
         .catch((error) => {
