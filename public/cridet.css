@@ -1,6 +1,6 @@
 body{
 
-    background:url(../assets/background.jpg) ;
+    background:url(background2.jpg) ;
     background-size: cover;
 }
 table{
@@ -34,10 +34,6 @@ table{
     
 }
 
-form{
-    padding: 15px;
-}
-
-div{
-    padding-top:12% ;
+.zz{
+    padding-top: 15%;
 }
