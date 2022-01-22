@@ -1,7 +1,8 @@
-div{
-    padding-left: 30%;
-}
+
 body{
-    background:url(../assets/background.jpg);
-    background-size: contain;
+    background:url(background2.jpg);
+    background-size: cover;
+}
+.level{
+    padding-left: 23%;
 }

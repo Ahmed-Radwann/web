@@ -1,8 +1,7 @@
 body{
-    background:url(../assets/background.jpg);
+    background:url(background2.jpg);
     background-size: cover;
 }
-div{
+.net{
     padding-left: 23%;
-
 }
