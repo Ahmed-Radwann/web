@@ -4,7 +4,7 @@ A College Social Media Web application.
 
 # Link of Web Application 
 
-https://bfcai-797f4.web.app/index.html
+https://bfcai-797f4.web.app/
 
 
 
