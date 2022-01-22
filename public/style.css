@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    
 }
 i{
     font-size: 50px;
@@ -74,3 +75,73 @@ img{
     width: 90px;
     height: 80;
 }
+
+.hero{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
+    margin: 150px auto;
+    margin-bottom: 0px;
+    
+}
+.small{
+    flex-basis: 100px;
+    cursor: pointer;
+    position: relative;
+    transition: 2s;
+    margin-bottom: 0px;
+}
+.small img{
+    width: 100px;
+    margin: 0px;
+}
+.small::after{
+    content: "";
+    width: 100px;
+    height: 300px;
+    bottom: -29px;
+    left:7px;
+    position: absolute;
+    
+    transform: skew(26deg);
+}
+.small::before{
+    content: "";
+    width: 15px;
+    height: 100px;
+    right: -14px;
+    top:15px;
+    position: absolute;
+    
+    transform: skew(65deg);
+}
+.hero:hover .small:nth-child(1){
+    transform: translate(60px, 230px) rotate(360deg);
+}
+.hero:hover .small:nth-child(2){
+    transform: translate(-260px, -150px ) rotate(360deg);
+}
+.hero:hover .small:nth-child(3){
+    transform: translate(60px, 230px) rotate(360deg);
+}
+.hero:hover .small:nth-child(4){
+    transform: translate(-260px, -150px ) rotate(360deg);
+}
+.hero:hover .small:nth-child(5){
+    transform: translate(60px, 230px) rotate(360deg);
+}
+.hero:hover .small:nth-child(6){
+    transform: translate(-260px, -150px ) rotate(360deg);
+}
+.hero:hover .small:nth-child(7){
+    transform: translate(60px, 230px) rotate(360deg);
+}
+.hero:hover .small:nth-child(8){
+    transform: translate(-260px, -150px ) rotate(360deg);
+}
+.hero:hover .small:nth-child(9){
+    transform: translate(60px, 230px) rotate(360deg);
+}
+
+
